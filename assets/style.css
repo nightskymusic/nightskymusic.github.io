@@ -664,8 +664,14 @@ a:hover {
 
 @media screen and (max-width: 700px) {
     body {
-        overflow-x: hidden;
+        overflow: hidden;
     }
+    .body-wrapper {
+        overflow: hidden;
+        height: 100%;
+        position: relative;
+    }
+
     .nav-links {
         position: absolute;
         right: 0px;
