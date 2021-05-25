@@ -674,6 +674,10 @@ a:hover {
 
         overflow-x: hidden;
     }
+    .text-container {
+        width: 80%;
+        margin: auto;
+    }
     .body-wrapper {
         overflow-x: hidden;
         height: 100%;
