@@ -8,6 +8,12 @@ body {
     width: 100%;
     background: radial-gradient(ellipse at bottom, #243f5e 0%,#090a0f 100%);
 }
+.body-wrapper {
+    overflow-x: hidden;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
 * {
     box-sizing: border-box;
 }
