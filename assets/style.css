@@ -663,7 +663,10 @@ a:hover {
 }
 
 @media screen and (max-width: 700px) {
+    .body {
 
+        overflow-x: hidden;
+    }
     .body-wrapper {
         overflow-x: hidden;
         height: 100%;
