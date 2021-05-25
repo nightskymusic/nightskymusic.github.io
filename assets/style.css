@@ -5,6 +5,7 @@ body {
 	letter-spacing: 2px;
     height: 100%;
     overflow: hidden;
+    width: 100%;
     background: radial-gradient(ellipse at bottom, #243f5e 0%,#090a0f 100%);
 }
 * {
@@ -668,7 +669,7 @@ a:hover {
     .nav-links {
         position: absolute;
         right: 0px;
-        height: 92vh;
+        height: 100%;
         top: 8vh;
         background: #151b22d3;
         display: flex;
