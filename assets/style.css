@@ -16,6 +16,9 @@ nav {
     align-items: center;
     min-height: 8vh;
 }
+.text {
+    text-align: center;
+}
 .logo {
     letter-spacing: 5px;
     font-size: 23px;
