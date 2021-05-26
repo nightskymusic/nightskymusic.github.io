@@ -49,6 +49,18 @@ nav {
 .song-description {
     text-align: center;
 }
+.streaming-logo {
+    width: 24px;
+    height: auto;
+    filter: invert(100%);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.streaming-link-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .logo {
     letter-spacing: 5px;
     font-size: 23px;
@@ -61,6 +73,9 @@ nav {
 .nav-modal {
     display: none;
     cursor: pointer;
+}
+.streaming-link-container a:hover {
+    filter: invert(0%);
 }
 .nav-modal div {
     width: 25px;
